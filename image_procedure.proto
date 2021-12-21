@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+// input image, width, height
+message B64Image {
+    string b64image = 1;
+    int32 width = 2;
+    int32 height = 3;
+}
+
+// output prediction
+
+message Prediction {
+	
+    string data=4;
+
+}
+
+// service
+service ImageProcedure {
+    rpc ImageMeanWH(B64Image) returns (Prediction) {}
+}
