@@ -3,8 +3,7 @@ This repo demonstrates the method for sending and recieving images using the grp
 
 
 #### Step 1: First Step is to install Proto file compliler using 
-``` import copy from 'copy-text-to-clipboard';
-apt install -y protobuf-compiler ```
+``` apt install -y protobuf-compiler ```
 #### Step 2: To Ensure Compiler installation  use
 ```  protoc --version ```
 #### Step 3: Then Write the Protofile that mainly contains inputs and outputs and services. The domo Protofile is given inside the repo with name             "image_procedure.proto"
