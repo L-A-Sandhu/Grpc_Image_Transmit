@@ -4,10 +4,6 @@ This repo demonstrates the method for sending and recieving images using the grp
 
 #### Step 1: First Step is to install Proto file compliler using 
 ``` import copy from 'copy-text-to-clipboard';
-
-button.addEventListener('click', () => {
-	copy('🦄🌈');
-}); 
 apt install -y protobuf-compiler ```
 #### Step 2: To Ensure Compiler installation  use
 ```  protoc --version ```
